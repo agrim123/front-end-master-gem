@@ -26,7 +26,7 @@ Or install it yourself as:
 
 require the following files in application.css
 
-```scss
+```css
 	*= require materialize
 	*= require material-icons
 ```
