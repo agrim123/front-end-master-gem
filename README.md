@@ -1,8 +1,6 @@
 # MaterialMaster
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/material_master`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to your material_master gem! It comprises of material design libraries including materialize( a modern responsive front-end framework based on Material Design.) and Google material icons library. 
 
 ## Installation
 
@@ -14,15 +12,27 @@ gem 'material_master'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
     $ gem install material_master
 
 ## Usage
+### a. CSS
 
-TODO: Write usage instructions here
+require the following files in application.css
+
+```scss
+	*= require materialize
+	*= require material-icons
+```
+### b. Javascript
+ require the following files in application.js
+
+```js
+	//= require materialize
+```
 
 ## Development
 
@@ -32,5 +42,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/material_master.
+Bug reports and pull requests are welcome on GitHub at https://github.com/agrim123/material_master.
+
+## License
+
+MIT
 
